@@ -20,7 +20,7 @@ public class testing {
 		//driver.findElement(By.name("submit")).click();
 		driver.findElement(By.xpath("//input[@value='Sign in' and @type='submit']")).click();
 		
-				
+				driver.navigate().back();
 
 	}
 
